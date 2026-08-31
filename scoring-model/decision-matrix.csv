@@ -1,0 +1,7 @@
+Criterion,Weight,Tool A,Tool B,Tool C
+Developer experience,0.25,4,5,3
+Security,0.25,5,4,5
+Enterprise integration,0.20,4,5,3
+Governance,0.15,5,4,4
+Cost,0.15,3,4,5
+Weighted score,1.00,4.35,4.45,3.85

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 320" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="700" height="320" fill="#FAF9F7"></rect>
+  <text x="30" y="34" font-size="16" font-weight="600" fill="#1C2321">Weighted score by tool</text>
+  <text x="30" y="54" font-size="12.5" fill="#6B7280">Portfolio demonstration data — not factual vendor ratings</text>
+
+  <!-- axis -->
+  <line x1="120" y1="90" x2="120" y2="260" stroke="#E3E1DC" stroke-width="1"></line>
+  <line x1="120" y1="260" x2="640" y2="260" stroke="#E3E1DC" stroke-width="1"></line>
+
+  <!-- bars: max value 5 mapped to 170px scale -->
+  <g>
+    <rect x="170" y="260" width="80" height="0" fill="none"></rect>
+
+    <rect x="170" y="107" width="80" height="153" fill="#1F3A5F" rx="3"></rect>
+    <text x="210" y="98" text-anchor="middle" font-size="13" fill="#1C2321">4.35</text>
+    <text x="210" y="280" text-anchor="middle" font-size="13" fill="#1C2321">Tool A</text>
+
+    <rect x="330" y="99" width="80" height="161" fill="#2E6B4F" rx="3"></rect>
+    <text x="370" y="90" text-anchor="middle" font-size="13" fill="#1C2321">4.45</text>
+    <text x="370" y="280" text-anchor="middle" font-size="13" fill="#1C2321">Tool B (selected)</text>
+
+    <rect x="490" y="121" width="80" height="139" fill="#9CA3AF" rx="3"></rect>
+    <text x="530" y="112" text-anchor="middle" font-size="13" fill="#1C2321">3.85</text>
+    <text x="530" y="280" text-anchor="middle" font-size="13" fill="#1C2321">Tool C</text>
+  </g>
+
+  <text x="30" y="90" font-size="11" fill="#6B7280">5.0</text>
+  <text x="30" y="260" font-size="11" fill="#6B7280">0.0</text>
+</svg>
